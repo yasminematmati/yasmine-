@@ -1,0 +1,59 @@
+
+  
+#import { background-color:rgba(148, 41, 148, 0.671);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family:cursive;
+
+}
+
+
+p{  font-family:fantasy;
+    font-size:large;
+    padding: 20px;
+    
+    width: 700px;
+    margin: 0 auto;
+    font-size: 50px;
+    
+    letter-spacing: 2px;
+    size:unset;
+color:purple;
+margin-left: 10px }
+p1{
+    font-family:cursive;
+    font-size:large;
+    padding: 10px;
+    
+    width: 500px;
+    margin: 0 auto;
+    font-size: 20px;
+    
+    letter-spacing: 2px;
+    size:initial;
+color:rgb(235, 95, 200);
+margin-left: 20px 
+
+}
+
+
+.import {padding-bottom:0.2em;}
+.import input[type=text] {width:630px;}
+
+.valid {background-color:limegreen;}
+.invalid {background-color:red;}
+.imported_square {background-color:lightgray;}
+
+.sudoku {border:4px solid black; border-collapse: collapse;}
+.sudoku tr {padding:0;}
+.sudoku td {padding:0; border:1px solid black; width:1em;}
+.sudoku input {width:1em; border:0; font-size:25pt; text-align:center;}
+.sudoku .thick_right {border-right:4px solid black !important;}
+.sudoku .thick_bottom {border-bottom:4px solid black;}
