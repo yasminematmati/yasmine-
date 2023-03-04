@@ -1,59 +1,48 @@
 
-  
-#import { background-color:rgba(148, 41, 148, 0.671);
-    border: none;
-    color: white;
-    padding: 12px 24px;
-    text-align: center;
-    text-decoration: none;
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
+#test_z {
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family:cursive;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid whitesmoke ;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    transition: all 0.2s;
+}
 
+#test_z:hover {
+    color: whitesmoke;
+    background-color: #BA55D3;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+@media all and (max-width: 30em) {
+    #test_z {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+p{
+     
+    font-size: larger;
+    font-family: serif;
 }
 
 
-p{  font-family:fantasy;
-    font-size:large;
-    padding: 20px;
+
+
+
+
+
+
+
+
     
-    width: 700px;
-    margin: 0 auto;
-    font-size: 50px;
-    
-    letter-spacing: 2px;
-    size:unset;
-color:purple;
-margin-left: 10px }
-p1{
-    font-family:cursive;
-    font-size:large;
-    padding: 10px;
-    
-    width: 500px;
-    margin: 0 auto;
-    font-size: 20px;
-    
-    letter-spacing: 2px;
-    size:initial;
-color:rgb(235, 95, 200);
-margin-left: 20px 
-
-}
-
-
-.import {padding-bottom:0.2em;}
-.import input[type=text] {width:630px;}
-
-.valid {background-color:limegreen;}
-.invalid {background-color:red;}
-.imported_square {background-color:lightgray;}
-
-.sudoku {border:4px solid black; border-collapse: collapse;}
-.sudoku tr {padding:0;}
-.sudoku td {padding:0; border:1px solid black; width:1em;}
-.sudoku input {width:1em; border:0; font-size:25pt; text-align:center;}
-.sudoku .thick_right {border-right:4px solid black !important;}
-.sudoku .thick_bottom {border-bottom:4px solid black;}
